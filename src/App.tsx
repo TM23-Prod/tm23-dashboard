@@ -14,7 +14,7 @@ function App() {
       <Router>
         <NavBar />
         <Routes>
-          <Route path="/tm23-dashboard" element={<Dashboard />} />
+          <Route path="/" element={<Dashboard />} />
           <Route path="/Uploads" element={<Uploads />} />
           <Route path="/Socials" element={<Socials />} />
           <Route path="/Livestreams" element={<Livestreams />} />
