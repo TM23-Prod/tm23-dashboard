@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar.tsx";
 import Dashboard from "./pages/Dashboard.tsx";
 import Uploads from "./pages/Uploads.tsx";
